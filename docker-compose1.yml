@@ -1,0 +1,25 @@
+version : '3.9'
+
+services:
+    lb:
+        image: haproxy
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./haproxy:/usr/local/etc/haproxy
+    webapp1:
+        image: webapp
+        environment:
+            - APPID=3001
+    webapp2:
+        image: webapp
+        environment:
+            - APPID=3002
+    webapp3:
+        image: webapp
+        environment:
+            - APPID=3003
+    webapp4:
+        image: webapp
+        environment:
+            - APPID=3004
