@@ -72,8 +72,31 @@
 
 ![image](https://user-images.githubusercontent.com/77032376/162150391-5acd7119-d5cb-458b-b5ec-f33b430eb1e4.png)
 
+4-TLS check 
+- in this step i created SSL certificate by generate key ssl with 365 days validation 
+- first i create a directorie cert in /scr. in there i generate different key certificate
+- 
+ ![image](https://user-images.githubusercontent.com/77032376/162225836-c7e49f99-7d7d-4a35-b000-2f4efc972d34.png)
+ 
+ ![image](https://user-images.githubusercontent.com/77032376/162226284-6362ece1-3634-459a-89e8-a15d199b1b6b.png)
 
  
+ ![image](https://user-images.githubusercontent.com/77032376/162226177-b177c850-6b4b-4a44-9cb8-d062d9d10994.png)
+ 
+ ![image](https://user-images.githubusercontent.com/77032376/162226360-26a6ec97-877d-4128-a493-a97d6abc3ecc.png)
+ 
+ - i also added this line in file 000.js
+ - ![image](https://user-images.githubusercontent.com/77032376/162226678-f4a17a3c-53e0-4e20-9b6a-b3d9f31810a1.png)
+
+![image](https://user-images.githubusercontent.com/77032376/162226899-1728ffb0-bf71-48b0-b675-2ff0c7f9820a.png)
+
+- after tested it still don't work
+
+![image](https://user-images.githubusercontent.com/77032376/162227455-bf946287-d7f1-48b4-b64c-bac94f0a6e28.png)
+
+
+
+
 
 
 
